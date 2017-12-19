@@ -38,9 +38,9 @@ If you did not receive an email. Please click here to find your verification cod
 <br/>You will no longer be unverified!
 <h2>Mobile Application</h2>
 The website is responsive. I had to add a few things in order to get the layout correctly displaying. <br/>Then I created a mobile application using an embedded WebKit view! It looks pretty nice!<br/>
-<img src="images/iphone1.png" style="width:20%; height:20%;"/>
-<img src="images/iphone2.png" style="width:20%; height:20%;"/>
-<img src="images/iphone3.png" style="width:20%; height:20%;"/>
+<img src="https://i.imgur.com/7OwGnp6.png" style="width:20%; height:20%;"/>
+<img src="https://i.imgur.com/LDpCH7Q.png" style="width:20%; height:20%;"/>
+<img src="https://i.imgur.com/NYgNlzC.png" style="width:20%; height:20%;"/>
 </div>
 <div id="nav-bar">
 <nav>
