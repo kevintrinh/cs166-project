@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="stylesheet.css" type="text/css"/>
 </head>
 <body>
@@ -9,7 +10,7 @@
 These attacks will prey on developers and how they write SQL statements in their code. Some developers will use concatenation of variables to a SQL statement and that could certainly lead to trouble! We will provide a demo page that does not use prepared statements.
 <br/><br/>
 <a href="insert_valid_demo.jsp">Insert an entry into dummy table</a></br>
-<a href="select_all_delete_demo.jsp">Select all with condition and delete all injection</a></br>
+<a href="select_all_delete_demo.jsp?first_name=%27%3B+DELETE+%2A+from+example+WHERE+first_name+LIKE+%27%25">Select all with condition and delete all injection</a></br>
 <a href="view_dummy_table.jsp">View dummy table</a><br/>
 <br/>
 <br/>

@@ -6,7 +6,7 @@ String loggedInAs = (String) session.getAttribute("loggedInAs");
 
 String csrfToken = (String) request.getParameter("csrfToken");
 
-Integer csrfTokenSession = (Integer) session.getAttribute("csrfToken");
+String csrfTokenSession = (String) session.getAttribute("csrfToken");
 
 if (csrfToken.equals("" + csrfTokenSession)) {
 String insertSqlStr = "INSERT INTO posts (title, content, userId) VALUES (?, ?, ?)";
